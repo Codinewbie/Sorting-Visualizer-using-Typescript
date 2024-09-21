@@ -14,4 +14,7 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',  // Ensure PostCSS is linked correctly
   },
+  
 });
+
+// base : '/Sorting-Visualizer-using-Typescript/'
