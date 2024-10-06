@@ -1,54 +1,43 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Sorting Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Sorting Visualizer** is an interactive web application built with **TypeScript**, **React**, and **Tailwind CSS**. This project visually demonstrates various sorting algorithms, allowing users to select different algorithms and observe the sorting process in action.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript, enhancing code quality and maintainability.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **JavaScript**: Used for dynamic web content.
+- **HTML**: The standard markup language for creating web pages.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Visual representation of various sorting algorithms.
+- Interactive controls to select different sorting algorithms.
+- Real-time updates showing the sorting process.
+- Responsive design optimized for both desktop and mobile devices.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To run this project locally, follow these steps:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# Sorting-Visualizer-using-Typescript
->>>>>>> 25bf4bb1d0b229d3a00e6d6cc540a04136dea093
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Codinewbie/sorting-visualizer.git
+2. Navigate to the project directory:
+   cd sorting-visualizer
+3. Install the dependencies:
+   npm install
+4. Start the development server:
+   npm start
+5. Open your browser and go to http://localhost:3000.
